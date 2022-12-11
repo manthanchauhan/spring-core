@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean class="org.spring.core.Book" name="java-book" c:name="Java Book" c:price="100">
+    </bean>
+
+    <bean class="org.spring.core.Book" name="python-book" c:name="Python Book" c:price="50">
+    </bean>
+
     <bean class="org.spring.core.Course" name="course-java">
-        <property name="name" value="Java"/>
+        <constructor-arg value="Java"/>
+        <constructor-arg name="books">
+            <list>
+                <ref bean="java-book"/>
+            </list>
+        </constructor-arg>
     </bean>
 
     <bean class="org.spring.core.Course" name="course-python">
-        <property name="name" value="Python"/>
+        <constructor-arg value="Python"/>
+        <constructor-arg name="books">
+            <list>
+                <ref bean="python-book"/>
+            </list>
+        </constructor-arg>
     </bean>
 
     <bean class="org.spring.core.Student" name="student1">

@@ -1,10 +1,14 @@
 package org.spring.core;
 
+import java.util.Arrays;
+
 public class Course {
     private String name;
+    private Book[] books;
 
-    Course(String name){
+    Course(String name, Book[] books){
         this.name = name;
+        this.books = books;
     }
 
     Course(){}
@@ -21,19 +25,7 @@ public class Course {
     public String toString() {
         return "Course{" +
                 "name='" + name + '\'' +
+                "books='" + Arrays.toString(this.books) + '\'' +
                 '}';
     }
-
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//        Course course = (Course) o;
-//        return Objects.equals(getName(), course.getName());
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(getName());
-//    }
 }
