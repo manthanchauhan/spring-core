@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad8337a-7fb6-48d3-a6a3-d80ade71ac2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/config.xml" afterDir="false" />
+    <list default="true" id="dad8337a-7fb6-48d3-a6a3-d80ade71ac2e" name="Changes" comment="bean declaration done.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring-core/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/spring-core/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/spring/core/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/core/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,12 +70,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670763111220</updated>
-      <workItem from="1670763112464" duration="2966000" />
+      <workItem from="1670763112464" duration="4935000" />
     </task>
+    <task id="LOCAL-00001" summary="bean declaration done.">
+      <created>1670766314879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670766314879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bean declaration done." />
+    <option name="LAST_COMMIT_MESSAGE" value="bean declaration done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
