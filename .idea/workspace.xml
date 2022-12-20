@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad8337a-7fb6-48d3-a6a3-d80ade71ac2e" name="Changes" comment="dependency injection via XML.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Book.java" afterDir="false" />
+    <list default="true" id="dad8337a-7fb6-48d3-a6a3-d80ade71ac2e" name="Changes" comment="constructor injection done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lifecycle/methods/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lifecycle/methods/Samosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lifecycle/methods/samosaConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lifecycle.methods/samosaConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/core/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -47,12 +49,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/manthan/learn/spring-core/src/main/java/org/lifecycle/methods",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "Errors",
+    "spring.configuration.checksum": "6b586d94569869d424a7b33402b00807",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +74,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670763111220</updated>
-      <workItem from="1670763112464" duration="6227000" />
+      <workItem from="1670763112464" duration="8490000" />
+      <workItem from="1671003300184" duration="1227000" />
+      <workItem from="1671558862167" duration="1510000" />
     </task>
     <task id="LOCAL-00001" summary="bean declaration done.">
       <created>1670766314879</created>
@@ -86,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670778030037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="constructor injection done">
+      <created>1670779898538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670779898538</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bean declaration done." />
     <MESSAGE value="dependency injection via XML." />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency injection via XML." />
+    <MESSAGE value="constructor injection done" />
+    <option name="LAST_COMMIT_MESSAGE" value="constructor injection done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
