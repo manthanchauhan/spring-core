@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad8337a-7fb6-48d3-a6a3-d80ade71ac2e" name="Changes" comment="constructor injection done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lifecycle/methods/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lifecycle/methods/Samosa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lifecycle/methods/samosaConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lifecycle.methods/samosaConfig.xml" afterDir="false" />
+    <list default="true" id="dad8337a-7fb6-48d3-a6a3-d80ade71ac2e" name="Changes" comment="lifecycle methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/autowire/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/autowire/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/autowire/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/autowire.config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/manthan/learn/spring-core/src/main/java/org/lifecycle/methods",
     "node.js.detected.package.eslint": "true",
@@ -61,9 +62,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/lifecycle/methods" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/lifecycle.methods" />
       <recent name="$PROJECT_DIR$/src/main/java/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.autowire" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +85,7 @@
       <updated>1670763111220</updated>
       <workItem from="1670763112464" duration="8490000" />
       <workItem from="1671003300184" duration="1227000" />
-      <workItem from="1671558862167" duration="1510000" />
+      <workItem from="1671558862167" duration="4207000" />
     </task>
     <task id="LOCAL-00001" summary="bean declaration done.">
       <created>1670766314879</created>
@@ -99,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670779898538</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lifecycle methods">
+      <created>1671561293608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671561293608</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +125,8 @@
     <MESSAGE value="bean declaration done." />
     <MESSAGE value="dependency injection via XML." />
     <MESSAGE value="constructor injection done" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor injection done" />
+    <MESSAGE value="lifecycle methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="lifecycle methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
